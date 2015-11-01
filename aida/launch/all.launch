@@ -1,0 +1,8 @@
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find aida)/launch/config.rviz" />
+  <node name="la" pkg="aida" type="la" output = "screen" />
+  <node name="detector" pkg="aida" type="detector" output="screen" />
+  <node name="hallway" pkg="aida" type="hallway" output="screen" />
+  <node name="end_of_hallway" pkg="aida" type="end_of_hallway" output="screen" />
+  <node name="switch" pkg="aida" type="switch" output="screen" />
+</launch>

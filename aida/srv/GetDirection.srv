@@ -1,0 +1,4 @@
+int32 user_id
+int32 location
+---
+bool direction
